@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@font-face {
+    font-family: Proxima_Nova_bold;
+    src: url(font/Proxima_Nova_Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: Proxima_Nova_Regular;
+    src: url(font/Proxima_Nova_Regular.otf) format("opentype");
+}
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.h-logo .logo{
+    display: block;
+}
+.h-info{
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.h-addr .h-info-content{
+    margin-left: 8px;
+    font-family: Proxima_Nova_Regular;
+}
+.h-info .h-info-label{
+    color: #9e9faf;
+    margin-bottom: 4px;
+    font-family: Proxima_Nova_bold;
+}
+.stair1{
+    padding-top: 15px;
+    min-width: 1800px;
+    max-height: all;
+}
+.h-phone{
+    min-width: 180px;
+    margin-left: 72px;
+}
+.h-addr{
+    margin-left: 350px;
+}
+.display{
+    display: inline-block;
+    vertical-align: middle;
+}
+.h-phone-item .h-info-label{
+    min-width: 50px;
+}
+.h-info-content{
+    color: #15285a; 
+}
+.stair2{
+    min-width: 1800px;
+    min-height: 520px;
+    background-image: url('img/background.png');
+    background-size: cover;
+}
+.stair2 .container .title{
+    display: block;
+    font-size: 47px;
+    line-height: 1;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 61px;
+    font-family: Proxima_Nova_bold;
+}
+.g-info{
+    padding-top: 104px;
+}
+.g-content{
+  font-size: 22px;
+  line-height: 1.273;
+  text-align: left;
+  color:  #ffffff;
+  width: 616px;
+  height: 188px;
+  font-family: Proxima_Nova_bold;
+  margin-top: 44px;
+}
+.g-image{
+    padding-left: 71px;
+    vertical-align: top;
+}
+.display-i{
+    display: inline-block;
+}
+.g-img2{
+    padding-left: 37px;
+}
+.stair3{
+    min-width: 1800px;
+    min-height: 800px;
+    background-image: url('img/background-stair3.png');
+    background-size: cover;
+    z-index: 9;
+}
+.box{
+    height: 236px; 
+    width: 376px;
+    border: 2px solid #9396bf;
+    margin-right: 26px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+.box:nth-child(3){
+    margin-right: 0px;
+}
+.container .header {
+  font-size: 48px;
+  line-height: 0.829;
+  color: #3d4046;
+}
+.stair3 .container .line .box .subtitle{
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #676878;
+  font-family: Proxima_Nova_Regular;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+.box-title{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #15285a;
+  font-family: Proxima_Nova_bold;
+}
+.pic1{
+    text-align: center;
+    margin-top: -1px;
+}
+.header{
+    font-family: Proxima_Nova_bold;
+    padding-top: 97px;
+    padding-bottom: 60px;
+}
+.investment_fund{
+    background-image: url('img/investment_fund.png');
+    background-size: cover;
+    min-height: 332px;
+    min-width: 1800px;
+    z-index: 10;
+}
+.investment_fund .container{
+    padding-top: 120px;
+}
+.investment_fund .info {
+    display: inline-block;
+    margin-left: 140px;
+    vertical-align: top;
+}
+.investment_fund .container .title{
+    display: inline-block;
+  font-size: 36px;
+  font-family: "Proxima_Nova_bold";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.105;
+  color: #ffffff;
+}
+.investment_fund .container .info .title{
+    display: block;
+  font-size: 30px;
+  font-family: "Proxima_Nova_bold";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  color: #ffffff;
+}
+.investment_fund .container .info .subtitle{
+    display: block;
+  font-size: 24px;
+  font-family: "Proxima_Nova_bold";
+  line-height: 1.2;
+  text-align: left;
+  width: 640px;
+  height: 49px;
+  color: #ffffff;
+}
+.about_team{
+    min-height: 620px;
+    background-image: url('about_team.png');
+    background-size: cover;
+}
