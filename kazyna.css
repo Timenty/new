@@ -192,6 +192,38 @@
 }
 .about_team{
     min-height: 620px;
-    background-image: url('about_team.png');
+    min-width: 1800px;
+    background-image: url('img/about_team.png');
     background-size: cover;
 }
+.about_team .container .info{
+  display: block;
+}
+.about_team .container .info .block{
+	width: 550px;
+	height: 91px;
+	display: inline-block;
+  margin-bottom: 36px;
+}
+.about_team .container .info .block .img{
+  padding-right: 22px;
+  display: inline-block;
+}
+.about_team .container .info .block .content{
+	text-align: left;
+  font-size: 20px;
+  font-family: "Proxima_Nova_Regular";
+  color: #3d4046;
+  line-height: 1.2;
+  width: 70%;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+
+
+
